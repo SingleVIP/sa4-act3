@@ -15,6 +15,7 @@ while chances > 0:
         print('Sorry! The number was lower ')
     elif guess < number:
         print('Sorry! The number was higher ')
+    
     else:
         print(f"Sorry! Please Try Again")
     chances -= 1
